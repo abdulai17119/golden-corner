@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/formScript.DPpQCFQ4.js","_astro/index.DKtf60Sy.js"])))=>i.map(i=>d[i]);
+import{_ as r}from"./preload-helper.BlTxHScW.js";const o=document.querySelectorAll(".open-form-modal-btn");let t=!1;const i=async e=>{e&&e.preventDefault(),t||(await r(()=>import("./formScript.DPpQCFQ4.js"),__vite__mapDeps([0,1])),t=!0),window.openFormModal()};o.length>0&&o.forEach(e=>{e.addEventListener("click",i)});

@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/videoScript.oyOKlcJK.js","_astro/hls.DZrlncOY.js","_astro/index.DKtf60Sy.js"])))=>i.map(i=>d[i]);
+import{_ as r}from"./preload-helper.BlTxHScW.js";const a=".open-modal-btn",i=document.querySelectorAll(a);let e=!1;const n=async t=>{t.preventDefault();const o=t.currentTarget.dataset.videoUrl;o&&(e||(await r(()=>import("./videoScript.oyOKlcJK.js"),__vite__mapDeps([0,1,2])),e=!0),window.openVideoModal&&window.openVideoModal(o))};i.forEach(t=>{t.addEventListener("click",n)});

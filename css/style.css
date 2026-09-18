@@ -50,7 +50,7 @@ nav.scrolled{background:rgba(255,255,255,0.99);padding:0.6rem 0;box-shadow:0 2px
 .mobile-nav ul li a:hover{color:var(--gold-dark)}
 .mobile-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.35);z-index:199;opacity:0;pointer-events:none;transition:opacity 0.4s}
 .mobile-overlay.open{opacity:1;pointer-events:all}
-.close-btn{position:absolute;top:1.5rem;right:1.5rem;background:none;border:none;color:var(--black);font-size:1.5rem;cursor:pointer;width:36px;height:36px;display:flex;align-items:center;justify-content:center}
+.close-btn{position:absolute;top:1.5rem;right:1.5rem;background:none;border:none;color:var(--black);font-size:1.5rem;cursor:pointer;width:44px;height:44px;display:flex;align-items:center;justify-content:center}
 .nav-mobile-cta{margin-top:2rem}
 
 /* ── MARQUEE ── */
@@ -360,9 +360,9 @@ footer{background:#0A0A0A;border-top:1px solid rgba(201,168,76,0.2)}
   position:absolute;inset:0;z-index:1;
   background:linear-gradient(
     105deg,
-    rgba(5,5,5,0.88) 0%,
-    rgba(5,5,5,0.70) 45%,
-    rgba(5,5,5,0.45) 100%
+    rgba(5,5,5,0.70) 0%,
+    rgba(5,5,5,0.50) 45%,
+    rgba(5,5,5,0.25) 100%
   );
 }
 
@@ -453,7 +453,7 @@ footer{background:#0A0A0A;border-top:1px solid rgba(201,168,76,0.2)}
 
 /* Dots */
 .hero-dots{position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);display:flex;gap:10px;z-index:10}
-.hero-dot{width:28px;height:3px;background:rgba(255,255,255,0.35);border:none;cursor:pointer;transition:background 0.3s,width 0.4s;padding:0}
+.hero-dot{width:28px;height:3px;padding:10px 0;background:rgba(255,255,255,0.35);background-clip:content-box;box-sizing:content-box;border:none;cursor:pointer;transition:background 0.3s,width 0.4s}
 .hero-dot.active{background:var(--gold);width:48px}
 .hero-scroll-cue{position:absolute;bottom:2.5rem;right:2.5rem;z-index:10}
 .scroll-line{width:1px;height:56px;background:linear-gradient(to bottom,rgba(255,255,255,0),var(--gold));animation:scrollPulse 2s ease-in-out infinite}
@@ -585,7 +585,7 @@ footer{position:relative;overflow:hidden}
 .footer-watermark{position:absolute;right:-60px;top:50%;transform:translateY(-50%);z-index:0;pointer-events:none;user-select:none}
 .footer-watermark-img{width:420px;height:420px;object-fit:contain;opacity:0.04;filter:grayscale(1) brightness(3)}
 footer .container{position:relative;z-index:1}
-.social-btn{width:38px;height:38px;border:1px solid rgba(201,168,76,0.25);background:rgba(201,168,76,0.06);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.5);text-decoration:none;transition:all 0.3s ease;flex-shrink:0}
+.social-btn{width:44px;height:44px;border:1px solid rgba(201,168,76,0.25);background:rgba(201,168,76,0.06);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.5);text-decoration:none;transition:all 0.3s ease;flex-shrink:0}
 .social-btn svg{width:16px;height:16px}
 .social-btn:hover{background:var(--gold);border-color:var(--gold);color:var(--black);transform:translateY(-3px);box-shadow:0 8px 20px rgba(201,168,76,0.3)}
 .footer-nav-logo{align-items:center;gap:14px}
@@ -595,7 +595,7 @@ footer .container{position:relative;z-index:1}
 .footer-logo-text span:last-child{font-size:9px;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);font-weight:500}
 .footer-watermark{position:absolute;right:-40px;top:50%;transform:translateY(-50%);z-index:0;pointer-events:none;user-select:none}
 .footer-watermark-img{width:380px;height:380px;object-fit:contain;opacity:0.05;filter:grayscale(1) brightness(5)}
-.social-btn{width:38px;height:38px;border:1px solid rgba(201,168,76,0.3);background:rgba(201,168,76,0.08);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.7);text-decoration:none;transition:all 0.3s ease;flex-shrink:0}
+.social-btn{width:44px;height:44px;border:1px solid rgba(201,168,76,0.3);background:rgba(201,168,76,0.08);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.7);text-decoration:none;transition:all 0.3s ease;flex-shrink:0}
 .social-btn svg{width:16px;height:16px}
 .social-btn:hover{background:var(--gold);border-color:var(--gold);color:#0A0A0A;transform:translateY(-3px);box-shadow:0 8px 20px rgba(201,168,76,0.35)}
 .footer-socials{display:flex;gap:10px;margin-top:1.5rem;flex-wrap:wrap}
